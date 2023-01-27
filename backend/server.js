@@ -28,6 +28,10 @@ const teacherSchema = new Schema({
     comment: {
         type: String,
         required: true
+    },
+    gain: {
+        type: Number,
+        required: true
     }
 },
     { timestamps: true }
