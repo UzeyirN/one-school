@@ -3,6 +3,7 @@ import Home from '../pages/Home'
 import Courses from '../pages/Courses'
 import Programs from '../pages/Programs'
 import Teachers from '../pages/Teachers'
+import Add from './../pages/Add';
 
 const ROUTES = [
 
@@ -26,6 +27,10 @@ const ROUTES = [
             {
                 path: "teachers",
                 element: <Teachers />
+            },
+            {
+                path: "add",
+                element: <Add />
             }
         ]
 

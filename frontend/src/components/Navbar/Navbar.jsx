@@ -25,6 +25,9 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link style={{margin:"0 20px"}} className="nav-link active" aria-current="page" to='teachers'>Teachers</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link style={{margin:"0 20px"}} className="nav-link active" aria-current="page" to='add'>Add</Link>
+                            </li>
 
 
                         </ul>

@@ -75,7 +75,7 @@ const OurTeachers = () => {
                                                         </div>
                                                         <div className='card-content'>
                                                             <h3 style={{ fontWeight: 500, fontSize: "20px" }}>{name}</h3>
-                                                            <p style={{ color: "RGB(173, 181, 189)", fontSize: "18px" }}>{speciality}</p>
+                                                            <p style={{ color: "RGB(173, 181, 189)", fontSize: "18px" }}>{speciality} teacher</p>
                                                             <p style={{ color: "RGB(128, 128, 128", fontSize: "18px" }}>{comment}</p>
                                                             <p style={{ color: "RGB(128, 128, 128", fontSize: "18px" }}>{gain}</p>
                                                         </div>
