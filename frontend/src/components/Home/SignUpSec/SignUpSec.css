@@ -1,0 +1,37 @@
+.signupsec-wrapper {
+    width: 100%;
+    height: 110vh;
+    background: url('https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup-left {
+    display: flex;
+    align-items: center;
+}
+
+.signup-left__content {
+    width: 90%;
+}
+
+.signupsec-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupsec-input__wrapper {
+    background-color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.signupsec-input {
+    width: 400px;
+    margin: 40px 0;
+    padding: 10px;
+}
