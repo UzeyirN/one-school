@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import Iframe from '../components/Home/Iframe'
 import OurPrograms from '../components/Home/OurPrograms/OurPrograms'
 import OurTeachers from '../components/Home/OurTeachers/OurTeachers'
 import SignUpSec from '../components/Home/SignUpSec/SignUpSec'
@@ -13,6 +14,7 @@ const Home = () => {
             <SignUpSec />
             <OurPrograms />
             <OurTeachers />
+            <Iframe />
         </>
     )
 }
